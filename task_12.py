@@ -2,9 +2,15 @@
 # -*- coding: utf-8 -*-
 """Task 12"""
 
+import decimal
+
 INTVAL = 1
 FLOATVAL = 0.1
-import decimal
+
 import fractions
-DECVAL = print dir(1/10)
-FRACVAL = 1/10
+
+DECVAL = decimal.Decimal('0.1')
+FRACVAL = fractions.Fraction('1/10')
+
+
+#DECVAL = print dir(1/10)
